@@ -2,7 +2,7 @@ You can mount a drive partition using command line with the udisks tool. For exa
 
 ```/usr/bin/udisks --mount /dev/sdb1```
 
-The bit after     --mount     is the device name of the partition you want to mount. (/dev/something). The command will mount     /dev/sdb1     in     /media/<uuid>     where     <uuid>     is the identifier of the particular partition. Read below to find the uuid of your partition. 
+The bit after ```--mount``` is the device name of the partition you want to mount. (/dev/something). The command will mount `/dev/sdb1` in `/media/<uuid>` where `<uuid>` is the identifier of the particular partition. Read below to find the uuid of your partition. 
 
 
 This will give location at which given partition is mounted. For example, if I run the command 
